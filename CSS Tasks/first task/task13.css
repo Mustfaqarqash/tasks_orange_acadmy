@@ -1,7 +1,13 @@
-#id1 {
-    border-color: black;
-    border-width: 1px;
+table {
     border-style: solid;
-    padding: 15px;
-    margin: 16px;
+    background-color: rgb(127, 176, 255);
+    width: 100%;
+    border: 5px solid white ;
+
+}
+#k {
+    color: red;
+    text-align: center;
+    background-color:bisque;
+    
 }

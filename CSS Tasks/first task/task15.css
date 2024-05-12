@@ -1,0 +1,29 @@
+h4{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    color: red;
+    font-family:cursive;
+}
+img {
+    border-width:20px;
+    border-radius: 50%;
+    border-color: green;
+    padding: 10px;
+    
+}
+.v {
+    background-color: darkgrey;
+}
+.o {
+   background-color: green; 
+}
+p{
+    width: 200;
+    height: 200;
+    border-width:20px;
+    border-radius: 50%;
+    border-color: green;
+    display: block;
+}
