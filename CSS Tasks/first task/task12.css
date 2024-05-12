@@ -1,0 +1,6 @@
+div {
+    width: 100%;
+    height: 50px;
+   background-image: linear-gradient(to top right,#1f1f7a , #80005a ,#d4ff00,#05c605 );
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+h1{
+    color: darkcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+u{
+    color: aqua;
+    font-size: 20px;
+ 
+}
+#div_1{
+    background-color: aquamarine;
+    color: burlywood;
+    padding: 8px;
+}
+#div_2{
+    background-color: rgb(198, 238, 238);
+    align-items: start;
+
+}
+#p_red{
+    color: red;
+}
+#p_blue{
+    color: blue;
+}
+#div_3{
+    text-align: center;
+    background-color: rgb(231, 198, 238);
+    
+    
+
+}

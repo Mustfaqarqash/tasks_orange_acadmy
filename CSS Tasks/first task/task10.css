@@ -1,0 +1,23 @@
+div{
+    margin: 8px;
+    padding: 8px;
+}
+
+#blue_par{
+    margin: 8px;
+    padding: 8px;
+    background-color: rgb(14, 145, 231);
+    color:white;
+}
+#pink_par{
+    margin: 8px;
+    padding: 8px;
+    background-color: rgb(224, 111, 173);
+    color:white;
+}
+#orange_par{
+    margin: 8px;
+    padding: 8px;
+    background-color: rgb(231, 144, 14);
+    color:white;
+}
