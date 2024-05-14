@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+    <style>
+        .parent {
+            border: solid 1px gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* Ensure all items are centered vertically if needed */
+        }
+
+        .parent div {
+            margin: 10px;
+        }
+
+        .item1 {
+            height: 40px;
+            width: 60px;
+            border-radius: 50%;
+            background-color: red;
+
+        }
+
+        .right-items {
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            /* Push the rest of the items to the far right */
+            justify-content: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="item1"></div>
+        <div class="right-items">
+            <div class="item2">content</div>
+            <div class="item3">work</div>
+            <div class="item4">profile</div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task10</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header_parent {
+            display: flex;
+            width: 100%;
+            padding: 15px;
+            background-color: #f0f0f0;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        p {
+            margin: 0 12px;
+        }
+
+        .right_div,
+        .left_div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        center {
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .main_parent {
+            padding: 15px;
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .top_div {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .top_div input {
+            width: 80%;
+            max-width: 500px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .footer_div {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .footer_div button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 12px;
+
+            color: black;
+            cursor: pointer;
+        }
+
+        .footer_div button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header_parent">
+        <div class="left_div">
+            <p>About</p>
+            <p>Store</p>
+        </div>
+
+        <div class="right_div">
+            <p>Profile</p>
+            <p>Setting</p>
+        </div>
+    </div>
+    <center>
+        <img src="google_logo.png" alt="Google Logo">
+    </center>
+    <div class="main_parent">
+        <div class="top_div">
+            <input type="text" placeholder="Type something...">
+        </div>
+        <div class="footer_div">
+            <button>Do thing!</button>
+            <button>Do the other thing!</button>
+        </div>
+    </div>
+</body>
+
+</html>
